@@ -1,0 +1,31 @@
+
+{% block title %}Página de Cadastro de Planos de Ensino{% endblock %}
+
+{% block content %}
+<form action ="#"  method="POST">
+    <p>Código:</p>
+    <p><input type="text" name="Codigo"></p>
+    <p>Ano e Semestre:</p>
+    <p><input type="text" name="anoeSemestre"></p>
+    <p>Turma:</p>
+    <p><input type="text" name="turma"></p>
+    <p>Nome do professor:</p> <p><input type="text" name="nomeProfessor"></p>
+    <p>E-mail do professor:</p>
+    <p><input type="text" name="email"></p>
+    <p>Horário e local das aulas:</p> 
+    <p><input type="text" name="horarioELocalAula"></p>
+    <p>Horário e local de atendimento ao aluno:</p> 
+    <p><input type="text" name="horarioAtendimento"></p>
+    <p>Metodologia de ensino:</p> 
+    <p><input type="text" name="Metodologia"></p>
+    <p>Avaliação:</p>
+    <p><input type="text" name="avaliacao"></p>
+    <p>Recuperação:</p>
+    <p><input type="text" name="recuperacao"></p>
+    <p>Cronograma de aulas:</p> 
+    <p><input type="text" name="cronograma"></p>
+    <p>Observações:</p>
+    <p><input type="text" name="observacoes"></p>
+    <p><input type="submit" value="Cadastrar" /></p>   
+</form>
+{% endblock %}
